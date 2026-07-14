@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
-// import NavBar from "./NavBar";
+import NavBar from "./NavBar";
+
 
 const AddCar = () => {
   const [data, setData] = useState({
@@ -58,7 +59,7 @@ const AddCar = () => {
 
   return (
     <div>
-      {/* <NavBar /> */}
+      <NavBar />
 
       <div className="container mt-5">
         <h2 className="mb-4">Add Car</h2>
